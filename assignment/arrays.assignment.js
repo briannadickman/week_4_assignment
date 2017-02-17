@@ -5,7 +5,7 @@ Array Review
 function createArray() {
   // create an array with 6 elements (numbers and strings only)
   // Write code below
-
+  var myArray = [42, "laser guns", 13, "banana", "elephant", 7];
   // return this array
   return myArray;
 }

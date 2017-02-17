@@ -4,7 +4,23 @@ Object Literals
 function threeBooks() {
   // Create 3 book objects with object literal syntax. Books should have properties for title, author, and pageCount
   // Write code here
+  var book1 = {
+    title: "The Alchemist",
+    author: "Paulo Coehlo",
+    pageCount: 163
+  };
 
+  var book2 = {
+    title: "The Talisman",
+    author: "Stephen King & Peter Straub",
+    pageCount: 646
+  };
+
+  var book3 = {
+    title: "The Eye of the World",
+    author: "Robert Jordan",
+    pageCount: 782
+  };
 
   // Add a property of haveRead to each book object you created. This should be set to true or false
   // Write code here
