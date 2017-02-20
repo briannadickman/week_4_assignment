@@ -78,6 +78,7 @@ return books;
 }
 
 createBooksWithConstructor();
+console.log(createBooksWithConstructor());
 
 
 // -- DON'T TOUCH CODE BELOW --

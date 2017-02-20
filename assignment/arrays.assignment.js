@@ -26,29 +26,30 @@ function loopArray(array) {
 }
 
 
+
 var arrayParam = [1, 2, 3, 4, 5];
-function arrayReverser(arrayParam) {
+
+function arrayReverser() {
   // Copy items from arrayParam to a new array called reversedArray, reversing the order of elements
   // Last element on arrayParam should become the first in reversedArray
   // Do not use Array.reverse()!
   var reversedArray = [];
+  var j = 0;
   // Write the code here
   for (var i = arrayParam.length - 1; i >= 0 ; i--) {
-      
+      reversedArray[j] = arrayParam[i];
+      j++;
   }
-console.log(arrayParam);
-console.log(reversedArray);
   // return our reversed array
   return reversedArray;
 }
 
 // call and console log the return for loopArray and arrayReverser
 
-//loopArray();
-//console.log(conString);
-//arrayReverser();
-//console.log(reversedArray);
-
+loopArray();
+console.log(loopArray(newArray));
+arrayReverser(arrayParam);
+console.log(arrayReverser(arrayParam));
 
 // -- DON'T TOUCH CODE BELOW --
 module.exports = {
