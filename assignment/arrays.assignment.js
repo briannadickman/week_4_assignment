@@ -10,33 +10,45 @@ function createArray() {
   return myArray;
 }
 
+
+
+var newArray = ['animal', 'crackers', '13', 'soup'];
+
 function loopArray(array) {
   // used below
-  var conString = ['animal', 'crackers', '13', 'soup'];
+  var conString = [];
   // Write code here: Concatentate all of the values in array together using a loop
-  for(var i = 0; i < conString.length; i++){
-
-    return conString(i) + ;
+  for(var i = 0; i < newArray.length; i++){
+      conString += newArray[i];
   }
-
   // return concatentated values
   return conString;
 }
 
 
+var arrayParam = [1, 2, 3, 4, 5];
 function arrayReverser(arrayParam) {
   // Copy items from arrayParam to a new array called reversedArray, reversing the order of elements
   // Last element on arrayParam should become the first in reversedArray
   // Do not use Array.reverse()!
   var reversedArray = [];
   // Write the code here
-
-
+  for (var i = arrayParam.length - 1; i >= 0 ; i--) {
+      
+  }
+console.log(arrayParam);
+console.log(reversedArray);
   // return our reversed array
   return reversedArray;
 }
 
 // call and console log the return for loopArray and arrayReverser
+
+//loopArray();
+//console.log(conString);
+//arrayReverser();
+//console.log(reversedArray);
+
 
 // -- DON'T TOUCH CODE BELOW --
 module.exports = {
